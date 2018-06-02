@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './header';
 import GuessSection from './guess-section';
 import StatusSection from './status-section';
-import InfoSection from './info-section';
+// import InfoSection from './info-section';
 
 export default class Game extends React.Component {
     constructor(props) {
@@ -95,7 +95,6 @@ export default class Game extends React.Component {
             <StatusSection guesses={guesses} 
               auralStatus={auralStatus}
             />
-            <InfoSection />
           </main>
         </div>
       );
